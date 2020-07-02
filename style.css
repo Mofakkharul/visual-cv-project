@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+
+    background-color:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width:1000px;
+    background-color:#E4F9F5;
+    margin:0 auto;
+    padding:20px;
+}
+.pic{
+    width:100px;
+    height:120px;
+    border:3px solid white;
+    border-radius:50%;
+    float:left;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color:#11999e;
+}
+.bio{
+    float:left;
+    padding:30px;
+
+}
+.contact{
+    float:right;
+    padding:30px;
+}
+.contact a{
+    color:teal;
+    text-decoration:none;
+    font-weight:bold;
+    
+}
+.contact a:hover{
+    color:tomato;
+    text-decoration:underline;
+    
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:solid black 3px;
+    width:100%;
+    margin:20px auto;
+    border-bottom:0;
+}
+.content{
+    margin-bottom:30px;
+}
+.left{
+    width:30%;
+    float:left;
+
+}
+.right{
+    
+    width:70%;
+    float:right;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+
+}
+.edu-left{
+    float:left;
+    width:45%;
+}
+.edu-left a{
+  text-decoration:none;
+}
+.edu-left a:hover{
+    text-decoration:underline;
+    color:tomato;
+  }
+
+.edu-right{
+    float:left;
+    width:45%;
+}
+.edu-right a{
+    text-decoration:none;
+  }
+  .edu-right a:hover{
+      text-decoration:underline;
+      color:tomato;
+    }
+    .footer{
+        background-color:black;
+        text-align:center;
+        padding:10px;
+    }
+    .footer a{
+        color:white;
+        text-decoration:none;
+        margin:20px;
+    }
+    .footer a:hover{
+        text-decoration:underline;
+        color:tomato;
+    }
+    .footer p{
+        color:white;
+        margin-top:20px;
+    }
